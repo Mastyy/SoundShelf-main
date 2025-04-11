@@ -11,7 +11,7 @@ public class AppContextListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent sce) {
         String url = "jdbc:mysql://localhost:3306/SoundShelf";
         String username = "root";
-        String password = "W23e45f78.";
+        String password = "root";
         DataSource.init(url, username, password);
         System.out.println("DataSource initialized!");
     }
